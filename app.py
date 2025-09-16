@@ -4,10 +4,10 @@ from spotipy.oauth2 import SpotifyOAuth
 import re
 
 app = Flask(__name__)
-app.secret_key = 'your_super_secret_key'  # Use a secure random key in production
+app.secret_key = 'your_super_secret_key'  # Use a secure random key 
 
-SPOTIPY_CLIENT_ID = 'f59b9c7c57224a29a11787fd19cdf7a3'
-SPOTIPY_CLIENT_SECRET = 'c8429cdc116d42df9411925eb6a61281'
+SPOTIPY_CLIENT_ID = 'SPOTIPY_CLIENT_ID'
+SPOTIPY_CLIENT_SECRET = 'SPOTIPY_CLIENT_SECRET'
 SPOTIPY_REDIRECT_URI = 'http://127.0.0.1:5000/callback'
 SCOPE = 'playlist-modify-public user-read-private'
 
